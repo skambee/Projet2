@@ -1,0 +1,203 @@
+@media (max-width: 767px) {
+  body {
+    margin: 0 auto;
+    max-width: 767px;
+  }
+
+  /* le positionment de la petite img dans le O de  logo   */
+  .img {
+    position: relative;
+    width: 2.9px;
+    height: 5.15px;
+    top: 9px;
+    right: 35px;
+  }
+
+  .header {
+    display: block !important;
+    margin-bottom: -26px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  /* le buttonHeader */
+  .buttonHeader {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .buttonHeader li {
+    border-bottom: solid 3px var(--grisColor);
+    width: 50%;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .hebarg:hover{
+    border-top: none;
+
+  }
+  .buttonHeader li:hover {
+    border-bottom: solid 3px var(--primaryColor);
+  }
+  .titre {
+    margin-bottom: -10px;
+  }
+  .titre h1 {
+    font-size: 20px;
+  }
+
+  .titre p {
+    font-size: 14px;
+    margin-top: -15px;
+  }
+
+  /* from*/
+
+  .input {
+    width: 80%;
+  }
+
+  /* le btn de recherche */
+  .recherche span {
+    display: none;
+  }
+
+  /*  la loupe le btn de recherche */
+  .recherche i {
+    display: block;
+    color: #ffff;
+  }
+
+  .recherche {
+    width: 60px;
+  }
+  .from-recherche {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+
+  /* block*/
+
+  .block {
+    width: 95%;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:center;
+  }
+
+
+
+  .filtreContenteVide {
+    display: block;
+    flex: 1;
+  }
+
+
+  /* maisons Populaires*/
+
+  .titrePopulaires h2 {
+    font-size: 16px;
+  }
+  .populaires {
+    order: 1;
+    width: 97%;
+    border-radius: 0px;
+    padding-bottom: 37px;
+  }
+  .populairesMaison {
+    margin: 0px;
+  }
+  .lesHotels {
+    flex-direction: column;
+  }
+
+  .hebergements {
+    order: 2;
+    width: 100%;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-top: 8px;
+  }
+  .maisons {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+  }
+  .maisons a {
+    width: 90%;
+  }
+  .maison {
+    margin: 0px;
+  }
+
+  .hebergementInfo {
+    row-gap: 5px;
+    padding-left: 29px;
+  }
+
+  .ActivitesaMarseille h2 span {
+    display: block;
+    font-size: 18px;
+  }
+  .hebergements h2 {
+    font-size: 18px;
+    padding: 30px 0px 4px 35px;
+  }
+
+  .hebergementsHref span {
+    display: block;
+    font-size: 16px;
+  }
+  .hebergementsHref span b {
+    font-size: 16px;
+  }
+  .hebergementsHref {
+    margin: 18px 0px 3px 19px;
+  }
+
+  /*Activites à Marseille */
+  .ActivitesaMarseille h2 {
+    font-size: 18px;
+    padding-left: 22px;
+  }
+
+  .ActivitesaMarseille {
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  .lesActivites {
+    flex-direction: column;
+    width: 100%;
+    grid-gap: 32px;
+  }
+
+  .activites {
+    border-radius: 20px;
+  }
+  .activites img {
+    height: 192px;
+  }
+
+  .activites h6 {
+    margin: 19px 17px 1px 18px;
+  }
+
+  .photoMobil {
+    display: block;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}

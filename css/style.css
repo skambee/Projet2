@@ -1,0 +1,6 @@
+
+/* reseble tout les fichier css*/
+
+@import "./styleDesktop.css";
+ @import "./styleTablette.css";
+@import "./styleMobile.css";

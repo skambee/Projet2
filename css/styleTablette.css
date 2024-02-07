@@ -1,0 +1,107 @@
+@media  (min-width: 768px) and (max-width: 1080px) {
+  body {
+    margin: 0 auto;
+    max-width: 1080px;
+    min-width: 768px;
+  }
+
+  /* ///////////////////////// block filters ///////////////////////////////:*/
+  .block {
+    margin-top: -5px;
+    flex-wrap: nowrap;
+  }
+
+  .lesHotels {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*section Hebergements à Marseille */
+  .hebergements {
+    width: auto;
+    width: 97%;
+    margin-bottom: 53px;
+  }
+
+  /* size p dans le box de Hebergements à Marseille */
+  .hebergementInfo p,
+  .hebergementInfo b {
+    font-size: 14px;
+  }
+
+  /* size p dans le box de populaire  */
+  .populairestInfo p,
+  .populairestInfo b {
+    font-size: 13px;
+  }
+
+  /* ///////populaire////////////*/
+  .populaires {
+    width: 97%;
+    border-radius: 10px;
+  }
+
+  .populairesMaison img {
+    width: 96px;
+    height: 133px;
+    padding: 3px;
+    border-radius: 20px;
+  }
+  .maisonsPopulaires {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 34px;
+    column-gap: 0px;
+  }
+
+  .populairestInfo {
+    margin: -1px;
+    max-width: 277px;
+    max-height: 160px;
+  }
+
+  .populairesMaison {
+    margin: 8px;
+    max-width: 277px;
+    max-height: 139px;
+  }
+
+  .titrePopulaires {
+    justify-content: space-between;
+    padding: 20px 33px;
+  }
+
+  .margininfo {
+    margin: 4px 0px -19px 0px;
+  }
+
+
+  /* /////////////Activites à Marseille /////////////*/
+
+  .lesActivites {
+    column-gap: 15px;
+    width: 97%;
+  }
+
+  .activites {
+    width: 100%;
+   height: 344px;
+  }
+ 
+    
+  .activites h6 {
+    margin: 10px 48px 0px 18px;
+   
+  }
+    
+  
+
+  footer {
+    margin-top: 39px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+}
